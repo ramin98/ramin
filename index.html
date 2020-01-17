@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="wrap">
+		<div class="wrap-two">
+<header class="main-header">
+	<div class="about-me-header">
+		<div class="logo"><p class="logo-text">IO <br> Group</p></div>
+		<h1 class="about-me">Дело</h1>
+	</div>
+</header>
+
+<main class="main-content">
+	<section class="first-section">
+		<ul class="infor-list">
+			<li class="infor-item"><label for="infor-label" class="inform">Полное ФИО</label><input type="text" value="Зейналов Рамин Фикретович" class="infor-area" id="infor-label"></li>
+			<li class="infor-item"><label for="infor-label1" class="inform">Год рождения</label><input type="text" value="1998" class="infor-area" id="infor-label1"></li>
+			<li class="infor-item"><label for="infor-label2" class="inform">Место жительства</label><input type="text" value="Азербайджан, г.Баку" class="infor-area" id="infor-label2"></li>
+			<li class="infor-item"><label for="infor-label3" class="inform">Скайп</label><input type="text" type="text" value="live:.cid.a0b9644eddd2e5d" class="infor-area" id="infor-label3"></li>
+			<li class="infor-item"><label for="infor-label4" class="inform">Почта</label><input type="text" value="zeynal.ramin.98@gmail.com" class="infor-area" id="infor-label4"></li>
+		</ul>
+	</section>
+
+	<section class="second-section">
+		<h4 class="my-knowledge">
+			Мои знания
+		</h3>
+	<div class="my-knowledge-contain">
+		<ul class="my-knowledge-first">
+			<li class="my-knowledge-item-li"><input class="my-knowledge-item my-knowledge-item-place" id="label" type="checkbox"><label class="label-knowledge" for="label"><span class="label-knowledge-span">Методолия БЭМ</span></label><li>
+			<li class="my-knowledge-item-li"><input class="my-knowledge-item1 my-knowledge-item-place" id="label1" type="checkbox"><label class="label-knowledge" for="label1">JQuery</label><li>
+			<li class="my-knowledge-item-li"><input class="my-knowledge-item my-knowledge-item-place" id="label2" type="checkbox"><label class="label-knowledge" for="label2">HAML</label><li>
+			<li class="my-knowledge-item-li"><input class="my-knowledge-item2 my-knowledge-item-place" id="label3" type="checkbox"><label class="label-knowledge" for="label3">SASS</label><li>
+		</ul>
+
+		<ul class="my-knowledge-second">
+	        <li class="my-knowledge-item-li"><input class="my-knowledge-item3 my-knowledge-item-place" id="label4" type="checkbox"><label class="label-knowledge" for="label4">LESS</label><li>
+	        <li class="my-knowledge-item-li"><input class="my-knowledge-item my-knowledge-item-place" id="label5" type="checkbox"><label class="label-knowledge" for="label5">Jade</label><li>
+	        <li class="my-knowledge-item-li"><input class="my-knowledge-item my-knowledge-item-place" id="label6" type="checkbox"><label class="label-knowledge" for="label6">Stylus</label><li>
+        </ul>
+
+        <ul class="my-knowledge-third">
+	        <li class="my-knowledge-item-li"><input class="my-knowledge-item my-knowledge-item-place" id="label7" type="checkbox"><label class="label-knowledge" for="label7"><span class="label-knowledge-span">Знаю(изучаю) angular<span></label><li>
+	        <li class="my-knowledge-item-li"><input class="my-knowledge-item my-knowledge-item-place" id="label8" type="checkbox"><label class="label-knowledge" for="label8">Верстка Рассылок</label><li> 
+	        <li class="my-knowledge-item-li"><input class="my-knowledge-item4 my-knowledge-item-place"id="label9" type="checkbox"><label class="label-knowledge" for="label9">Адаптивная верстка</label><li>
+	    </ul>
+	</div>
+	</section>
+	<section class="section-third">
+		<h2 class="js-knowledge">
+			Уровень владения JavaScript
+		</h2>
+       <input type="range" max="3" value="2" name="slider" class="slider" id="my-slider">
+     
+        <ul class="progress-bar-list">
+		  	<li class="progress-bar-item1">Не знаю</li>
+		  	<li class="progress-bar-item2">Использую <br> готовые <br> решения</li>
+		  	<li class="progress-bar-item3">Использую <br> готовые <br> решения <br> и умею их <br> переделывать</li>
+		  	<li class="progress-bar-item4">Пишу сложный JS <br> с нуля</li>
+		  </ul>	
+	</section>
+</main>
+
+<footer class="main-footer">
+	<div class="date"><p class="inform">Дата заполнения</p><div class="infor-area"><span class="text">16.01.2020</span></div><div>
+</footer>
+</div>
+</div>
+<script type="text/javascript">
+document.querySelector('.my-knowledge-item').checked=true;
+document.querySelector('.my-knowledge-item1').checked=true;
+document.querySelector('.my-knowledge-item2').checked=true;
+document.querySelector('.my-knowledge-item3').checked=true;
+document.querySelector('.my-knowledge-item4').checked=true;
+</script>
+</body>
+</html>
